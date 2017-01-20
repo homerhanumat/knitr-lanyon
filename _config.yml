@@ -6,7 +6,7 @@ permalink: /:year/:month/:day/:title.html
 # relative_permalinks: true
 
 # Setup
-title:            My Lanyon Blog
+title:            Weiqi Wang
 tagline:          ''
 description:      'Jekyll-powered, Lanyon-themed, knitr-ready.'
 baseurl: "/knitr-lanyon" # If you are making a gh-pages project blog, this is
