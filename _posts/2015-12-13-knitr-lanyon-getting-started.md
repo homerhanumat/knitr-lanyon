@@ -19,6 +19,10 @@ The aim of this project is to help students and colleagues who for some reason w
 
 I have tried to minimize what you need to know about Jekyll (and web development generally) in order to get going.  You can learn more about Jekyll when it suits you and eventually make thorough-going alterations to my blog-template, but for now I want you to be able to concentrate on getting your content out there to a waiting public.
 
+**Note 1**: Before you commit yourself to a Lanyon-themed blog, check out the [same R-set-up](http://statistics.rainandrhino.org/knitr-hyde/) but using Mark Otto’s Hyde theme with a fixed sidebar.
+
+**Note 2** (added Feburary 7, 2017): About nine months after this project was published, the team at RStudio began work on [blogdown](https://github.com/rstudio/blogdown), a package specifically for R-blogging. You should not use Knitr-Hyde or Knitr-Lanyon unless you have a particular need for those themes.
+
 ## Preliminaries
 
 ### Platform
@@ -144,6 +148,8 @@ When you are happy with your post, commit your changes and push your `gh-pages` 
 {% highlight r %}
 servr::jekyll(command = 'jekyll _3.2.1_ build')
 {% endhighlight %}
+
+**Note on Sample Posts**: The package comes with two posts: this getting-started guide and a sampl post that demonstrates several capabilities of R Markdown. In order to ensure that these posts to display correctly for you, go to the _posts directory and remove the .md files corresponding to them. When you run servr::jekyll() command new .md files will be gnerated in the _posts directory.
 
 
 ## Further Customization
